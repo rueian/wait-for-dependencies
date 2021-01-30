@@ -1,4 +1,4 @@
-FROM --platform=$BUILDPLATFORM busybox:stable
+FROM --platform=$TARGETPLATFORM busybox:stable
 
 ADD entrypoint.sh /entrypoint.sh
 
